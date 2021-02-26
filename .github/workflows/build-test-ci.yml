@@ -23,18 +23,26 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          auto-update-conda: true
+          python-version: ${{ matrix.python-version }}
+          auto-activate-base: false
+          channels: conda-forge
+          channel-priority: true
+
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          conda install -c conda-forge --file=requirements.txt
+          conda install -c conda-forge --file=requirements-build.txt
           pip install -r requirements-library.txt
-          pip install -r requirements-build.txt
 
       - name: Build and install package
         run: make install
 
       - name: Test
         run: |
-          pip install -r requirements-testing.txt
+          conda install -c conda-forge --file=requirements-testing.txt
           make test
 
   lint:
