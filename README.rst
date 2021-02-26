@@ -78,10 +78,10 @@ be installed with:
 
 .. code::
 
-  conda install bmi-topography
+  pip install bmi-topography
 
 To install `pymt_topography`,
 
 .. code::
 
-  conda install pymt_topography
+  pip install pymt_topography
