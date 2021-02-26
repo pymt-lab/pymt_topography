@@ -10,9 +10,6 @@ pymt_topography
 .. image:: https://img.shields.io/badge/recipe-pymt_topography-green.svg
         :target: https://anaconda.org/conda-forge/pymt_topography
 
-.. image:: https://img.shields.io/travis/mdpiper/pymt_topography.svg
-        :target: https://travis-ci.org/mdpiper/pymt_topography
-
 .. image:: https://readthedocs.org/projects/pymt-topography/badge/?version=latest
         :target: https://pymt-topography.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
