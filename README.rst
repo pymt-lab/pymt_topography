@@ -34,7 +34,6 @@ PyMT component for accessing SRTM land elevation data
 ========== ====================================
 Component  PyMT
 ========== ====================================
-
 Topography `from pymt.models import Topography`
 ========== ====================================
 
