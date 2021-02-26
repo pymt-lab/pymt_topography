@@ -58,7 +58,7 @@ pretty:
 	black setup.py pymt_topography
 
 test: ## run tests quickly with the default Python
-	bmi-test pymt_topography.bmi:Topography -vvv
+	bmi-test pymt_topography.bmi:Topography --config-file=examples/bmi-topography.yaml --root-dir=examples -vvv
 
 test-all: ## run tests on every Python version with tox
 	tox
