@@ -27,7 +27,7 @@ setup(
     author_email="mark.piper@colorado.edu",
     description="PyMT plugin for pymt_topography",
     long_description=long_description,
-    version="0.1",
+    version="0.2.dev0",
     url="https://github.com/mdpiper/pymt_topography",
     classifiers=[
         "Development Status :: 4 - Beta",
