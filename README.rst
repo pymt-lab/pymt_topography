@@ -7,6 +7,10 @@ pymt_topography
         :target: https://bmi.readthedocs.io/
         :alt: Basic Model Interface
 
+.. image:: https://img.shields.io/pypi/v/pymt_topography
+        :target: https://pypi.org/project/pymt_topography
+        :alt: PyPI
+
 .. image:: https://img.shields.io/badge/recipe-pymt_topography-green.svg
         :target: https://anaconda.org/conda-forge/pymt_topography
 
