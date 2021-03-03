@@ -58,7 +58,7 @@ An example is :download:`bmi-topography.yaml`:
 :download:`Download <bmi-topography.yaml>` this file
 for use in the following example.
 
-include:: pymt_topography_config_file_ex.rst
+.. include:: pymt_topography_config_file_ex.rst
 
 
 With parameters
@@ -66,7 +66,7 @@ With parameters
 
 Configuration information can also be passed directly to *pymt_topography* as parameters.
 
-include:: pymt_topography_parameters_ex.rst
+.. include:: pymt_topography_parameters_ex.rst
 
 
 API documentation
