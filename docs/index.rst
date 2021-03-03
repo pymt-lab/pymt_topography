@@ -69,8 +69,20 @@ Configuration information can also be passed directly to *pymt_topography* as pa
 include:: pymt_topography_parameters_ex.rst
 
 
+API documentation
+-----------------
+
+Looking for information on a particular function, class, or method?
+This part of the documentation is for you.
+
+.. toctree::
+   :maxdepth: 2
+
+   modules
+
+
 Indices and tables
-==================
+------------------
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
