@@ -13,7 +13,7 @@ Access to the following global raster datasets is provided:
 * SRTM GL1 (Ellipsoidal)
 
 The *pymt_topography* component provides `BMI`_-mediated access to SRTM data as a service,
-allowing it to be coupled in *pymt* with other components that expose a BMI.
+allowing it to be coupled in *pymt* with other data or model components that expose a BMI.
 
 
 Installation
