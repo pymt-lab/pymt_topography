@@ -28,7 +28,7 @@ setup(
     description="PyMT plugin for pymt_topography",
     long_description=long_description,
     version="0.2.dev0",
-    url="https://github.com/mdpiper/pymt_topography",
+    url="https://github.com/pymt-lab/pymt_topography",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
@@ -38,7 +38,7 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
         "Programming Language :: Python :: 3.8",
     ],
-    keywords=["bmi", "pymt"],
+    keywords=["bmi", "pymt", "srtm", "topography", "elevation"],
     install_requires=open("requirements.txt", "r").read().splitlines(),
     packages=find_packages(),
     entry_points=entry_points,
