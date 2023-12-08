@@ -44,6 +44,9 @@ dev = [
   "ruff",
   "isort",
 ]
+docs = [
+  "sphinx",
+]
 build = [
   "build",
   "twine",
