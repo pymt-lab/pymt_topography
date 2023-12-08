@@ -51,11 +51,11 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint: ## check style with ruff
-	ruff check .
+	ruff check . --fix
 
 pretty:
 	find pymt_topography -name '*.py' | xargs isort
-	black . --check
+	black .
 
 test: ## run tests quickly with the default Python
 	bmi-test pymt_topography.bmi:Topography --config-file=examples/bmi-topography.yaml --root-dir=examples -vvv
