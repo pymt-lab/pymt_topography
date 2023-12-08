@@ -11,23 +11,23 @@ pymt_topography
         :target: https://pypi.org/project/pymt_topography
         :alt: PyPI
 
+.. image:: https://img.shields.io/conda/vn/conda-forge/pymt_topography.svg
+        :target: https://anaconda.org/conda-forge/pymt_topography
+        :alt: conda-forge
+
 .. image:: https://img.shields.io/badge/recipe-pymt_topography-green.svg
         :target: https://anaconda.org/conda-forge/pymt_topography
 
-.. image:: https://github.com/pymt-lab/pymt_topography/actions/workflows/build-test-ci.yml/badge.svg
-        :target: https://github.com/pymt-lab/pymt_topography/actions/workflows/build-test-ci.yml
+.. image:: https://github.com/pymt-lab/pymt_topography/actions/workflows/test.yml/badge.svg
+        :target: https://github.com/pymt-lab/pymt_topography/actions/workflows/test.yml
         :alt: Build/Test CI
 
 .. image:: https://readthedocs.org/projects/pymt-topography/badge/?version=latest
         :target: https://pymt-topography.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-        :target: https://github.com/csdms/pymt
-        :alt: Code style: black
 
-
-PyMT component for accessing SRTM land elevation data
+PyMT component for accessing land elevation data.
 
 
 * Free software: MIT License
