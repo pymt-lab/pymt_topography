@@ -50,18 +50,15 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr htmlcov/
 	rm -fr .pytest_cache
 
-lint: ## check style with flake8
-	flake8 pymt_topography
+lint: ## check style with ruff
+	ruff check . --fix
 
 pretty:
 	find pymt_topography -name '*.py' | xargs isort
-	black setup.py pymt_topography
+	black .
 
 test: ## run tests quickly with the default Python
 	bmi-test pymt_topography.bmi:Topography --config-file=examples/bmi-topography.yaml --root-dir=examples -vvv
-
-test-all: ## run tests on every Python version with tox
-	tox
 
 coverage: ## check code coverage quickly with the default Python
 	coverage run --source pymt_topography -m pytest
@@ -77,16 +74,12 @@ docs: ## generate Sphinx HTML documentation, including API docs
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html
 
-servedocs: docs ## compile the docs watching for changes
-	watchmedo shell-command -p '*.rst' -c '$(MAKE) -C docs html' -R -D .
-
 release: dist ## package and upload a release
 	twine upload dist/*
 
 dist: clean ## builds source and wheel package
-	python setup.py sdist
-	python setup.py bdist_wheel
+	python -m build --no-isolation
 	ls -l dist
 
 install: clean ## install the package to the active Python's site-packages
-	pip install -e .
+	pip install --no-build-isolation --editable .
