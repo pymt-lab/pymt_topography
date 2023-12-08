@@ -5,7 +5,7 @@ requires = ['meson-python', 'numpy']
 [project]
 name = "pymt_topography"
 description = "PyMT plugin for Topography data component"
-version = "0.2.dev0"
+version = "0.1.1"
 readme = "README.rst"
 authors = [
   {email = "mark.piper@colorado.edu"},

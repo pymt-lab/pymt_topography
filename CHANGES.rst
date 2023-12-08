@@ -1,8 +1,8 @@
 Changelog for pymt_topography
 =============================
 
-0.2 (unreleased)
-----------------
+0.1.1 (2023-12-08)
+------------------
 
 - Update docs and CI workflows
 - Rebuild with Meson and meson-python (#4)
