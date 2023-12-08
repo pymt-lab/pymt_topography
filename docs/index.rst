@@ -3,16 +3,21 @@ Topography data component
 
 The Topography data component, *pymt_topography*,
 is a `Python Modeling Toolkit`_ (*pymt*) library for fetching and caching
-NASA `Shuttle Radar Topography Mission`_ (SRTM) land elevation data 
-using the `OpenTopography`_ `REST API`_.
+land elevation data using the `OpenTopography`_ `REST API`_.
 
 Access to the following global raster datasets is provided:
 
-* SRTM GL3 (90m)
-* SRTM GL1 (30m)
-* SRTM GL1 (Ellipsoidal)
+* SRTMGL3 (SRTM GL3 90m)
+* SRTMGL1 (SRTM GL1 30m)
+* SRTMGL1_E (SRTM GL1 Ellipsoidal 30m)
+* AW3D30 (ALOS World 3D 30m)
+* AW3D30_E (ALOS World 3D Ellipsoidal, 30m)
+* SRTM15Plus (Global Bathymetry SRTM15+ V2.1)
+* NASADEM (NASADEM Global DEM)
+* COP30 (Copernicus Global DSM 30m)
+* COP90 (Copernicus Global DSM 90m)
 
-The *pymt_topography* component provides `BMI`_-mediated access to SRTM data as a service,
+The *pymt_topography* component provides `BMI`_-mediated access to land elevation data as a service,
 allowing it to be coupled in *pymt* with other data or model components that expose a BMI.
 
 
