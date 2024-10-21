@@ -3,7 +3,6 @@ dem_type:
   value:
     type: string
     default: SRTMGL3
-    units: 1
 south:
   description: WGS 84 bounding box south coordinate
   value:
@@ -44,9 +43,7 @@ output_format:
   value:
     type: string
     default: GTiff
-    units: 1
 cache_dir:
   value:
     type: string
     default: "~/.bmi_topography"
-    units: 1
