@@ -58,7 +58,7 @@ pretty:
 	black .
 
 test: ## run tests quickly with the default Python
-	bmi-test pymt_topography.bmi:Topography --config-file=examples/bmi-topography.yaml --root-dir=examples -vvv
+	bmi-test pymt_topography.bmi:Topography --config-file=${PWD}/examples/bmi-topography.yaml --root-dir=examples -vvv
 
 coverage: ## check code coverage quickly with the default Python
 	coverage run --source pymt_topography -m pytest
