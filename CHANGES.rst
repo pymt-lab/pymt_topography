@@ -1,7 +1,7 @@
 Changelog for pymt_topography
 =============================
 
-0.1.2 (unreleased)
+0.1.2 (2024-10-22)
 ------------------
 
 - Update parameters for latest model_metadata (#5) 
