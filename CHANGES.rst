@@ -4,7 +4,7 @@ Changelog for pymt_topography
 0.1.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Update to Python 3.13 (#6) 
 
 
 0.1.2 (2024-10-22)
