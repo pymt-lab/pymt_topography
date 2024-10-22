@@ -73,7 +73,7 @@ Topography = "pymt_topography.bmi:Topography"
 [tool.ruff]
 exclude = ["docs"]
 line-length = 88
-ignore = [
+lint.ignore = [
 	"E203",
 	"E501",
 ]
