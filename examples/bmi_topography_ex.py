@@ -1,4 +1,5 @@
 """An example of running the babelized topography library through its BMI."""
+
 import numpy as np
 from pymt_topography import Topography
 
