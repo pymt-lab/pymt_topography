@@ -4,7 +4,7 @@ Changelog for pymt_topography
 0.1.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Set minimum Python to 3.12 (#7)
 
 
 0.1.3 (2024-10-22)
