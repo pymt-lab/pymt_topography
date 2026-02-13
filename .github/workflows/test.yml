@@ -16,14 +16,13 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        python-version: ["3.12"]
 
     steps:
       - uses: actions/checkout@v6
         with:
           submodules: true
 
-      - uses: mamba-org/setup-micromamba@v1
+      - uses: mamba-org/setup-micromamba@v2
         with:
           micromamba-version: latest
           environment-file: environment.yml
@@ -41,4 +40,4 @@ jobs:
         working-directory: ${{ github.workspace }}/examples
         run: |
           python bmi_topography_ex.py
-          python pymt_topography_ex.py
+          # python pymt_topography_ex.py  # pending pymt#178
