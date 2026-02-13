@@ -1,8 +1,8 @@
 bmi-topography:
   dem_type: SRTMGL3
-  south: 36.738884
-  north: 38.091337
-  west: -120.168457
-  east: -118.465576
+  south: 39.93
+  north: 40.00
+  west: -105.33
+  east: -105.26
   output_format: GTiff
-  cache_dir: "~/.bmi_topography"
+  cache_dir: "."

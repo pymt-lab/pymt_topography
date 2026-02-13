@@ -2,7 +2,6 @@
 
 from pymt.models import Topography
 
-
 # Instantiate the component and get its name.
 m = Topography()
 print(m.name)

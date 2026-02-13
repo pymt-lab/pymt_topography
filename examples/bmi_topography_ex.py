@@ -3,7 +3,6 @@
 import numpy as np
 from pymt_topography import Topography
 
-
 config_file = "bmi-topography.yaml"
 
 
