@@ -1,7 +1,7 @@
 #! /usr/bin/env python
-import pkg_resources
+from importlib.metadata import version
 
-__version__ = pkg_resources.get_distribution("pymt_topography").version
+__version__ = version("pymt_topography")
 
 
 from .bmi import Topography
