@@ -30,7 +30,7 @@ jobs:
 
       - name: Build and install package
         run: |
-          make install
+          pip install .
 
       - name: Test BMI
         run: |
