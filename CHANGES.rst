@@ -1,7 +1,7 @@
 Changelog for pymt_topography
 =============================
 
-0.2.1 (unreleased)
+0.2.1 (2026-02-14)
 ------------------
 
 - Use importlib, not backport (#8)
